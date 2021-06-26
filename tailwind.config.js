@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         'bg-fill': '#EDF2F4',
         'primary-btn': '#176AE7',
+        'primary-btn-active': '#0b3573',
       },
     },
     fontFamily: {
@@ -16,7 +17,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['active'],
+    },
   },
   plugins: [],
 };

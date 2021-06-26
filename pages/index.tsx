@@ -13,7 +13,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="my-5 rounded-full shadow-md bg-white">
             <div className="p-4 flex flex-row">
-              <div className="flex-grow-0">
+              {/* <div className="flex-grow-0">
                 <Image
                   className=""
                   src="/fb.svg"
@@ -21,10 +21,10 @@ export default function Home() {
                   width={50}
                   height={50}
                 />
-              </div>
+              </div> */}
               <div className="flex-grow">
                 <input
-                  className="h-full w-full p-2 px-4 focus:outline-none"
+                  className="h-full w-full p-2 px-4 text-lg focus:outline-none"
                   type="url"
                   placeholder="Paste your URL Here"
                 />
@@ -32,7 +32,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-row justify-center">
-            <button className="active:bg-green-700 p-3 px-10 rounded-full shadow-xl bg-primary-btn">
+            <button className="active:bg-green-700 p-3 px-10 rounded-full shadow-xl bg-primary-btn active:bg-primary-btn-active">
               <span className="text-xl text-white font-semibold">Generate</span>
             </button>
           </div>
