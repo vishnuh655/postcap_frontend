@@ -4,7 +4,10 @@ export default function Home() {
   return (
     <div className="flex h-screen">
       <div className="m-auto p-10">
-        <h1 className="text-4xl">
+        <h1 className="flex justify-center py-5 font-montserrat text-7xl text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
+          POSTCAP
+        </h1>
+        <h1 className="flex justify-center text-4xl">
           Transform your social posts to beautiful photos.
         </h1>
         <div className="container mx-auto">
