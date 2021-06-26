@@ -32,7 +32,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-row justify-center">
-            <button className="active:bg-green-700 p-3 px-10 rounded-full shadow-xl bg-primary-btn active:bg-primary-btn-active">
+            <button className="p-3 px-10 rounded-full shadow-xl bg-primary-btn active:bg-primary-btn-active">
               <span className="text-xl text-white font-semibold">Generate</span>
             </button>
           </div>
